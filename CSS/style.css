@@ -1,0 +1,107 @@
+/*Global Layout for index*/
+body {
+    box-sizing: border-box;
+     }
+
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     color: #222;
+     background-color: rgb(243, 235, 224);
+   }
+
+   img {
+    width: 35%;
+    height: auto;
+    float: left;
+    border-radius: 25%;
+    right: 45%;
+   }
+
+/*Header style*/
+
+.header{
+  background-image: url(img/trees.jpg);
+  background-color: #A8358F;
+  }
+
+.header{
+       
+    text-align: right;
+    padding: 20px;
+    font-family: 'Nobile', sans-serif;
+    color: #FEF2FE;
+    opacity: 0.8;
+   
+}
+
+/*nav bar background for index*/
+.nav{
+    background-color: #F353EC;
+    overflow: hidden;
+    border-bottom: 5px solid 70FFFA;
+ }
+ 
+ 
+ /* Style the links inside the navigation bar */
+ .nav a {
+     float: center;
+     color: #FEF2FE;
+     text-align: center;
+     padding: 35px 35px;
+     text-decoration: none;
+     font-size: 25px;
+     border: #78D6D2;
+     
+ }
+ 
+ 
+ /* Change the color of links on hover */
+ .nav a:hover {
+     background-color: #F695F2;
+     color: FEF2FE;
+ }
+
+/*style of paragraph*/
+.intro{
+  column-count: 2;
+  column-gap: 50px;
+  padding: 50px;
+}
+#text1 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: rgb(245, 205, 235);
+  border-bottom: 4px solid rgb(85, 206, 176);
+  border-radius: 6px;
+}
+
+
+
+
+#text1:hover {
+  border-color: #ff99ff;
+}
+
+
+
+#footer {
+  width: 100%;
+  height: 25px;
+  padding: 20px 0 40px 20px;
+  background-color: #A8358F;
+}
+
+hr {
+  height:10px;
+  background-color: #24A19C;
+  }
+
+  html{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
